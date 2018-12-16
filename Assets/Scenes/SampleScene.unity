@@ -470,6 +470,7 @@ GameObject:
   - component: {fileID: 368517218}
   - component: {fileID: 368517217}
   - component: {fileID: 368517219}
+  - component: {fileID: 368517220}
   m_Layer: 5
   m_Name: MainMenuPanel
   m_TagString: Untagged
@@ -554,6 +555,19 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
+--- !u!114 &368517220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 368517215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f4924d19e55e341aca2e6c29d7e607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventSystem: {fileID: 1147106340}
+  selectedObject: {fileID: 1379322377}
 --- !u!224 &396251810 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22400008, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d,
@@ -971,6 +985,7 @@ GameObject:
   - component: {fileID: 864466781}
   - component: {fileID: 864466780}
   - component: {fileID: 864466779}
+  - component: {fileID: 864466782}
   m_Layer: 5
   m_Name: HelpPanel
   m_TagString: Untagged
@@ -1054,6 +1069,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 864466777}
+--- !u!114 &864466782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 864466777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f4924d19e55e341aca2e6c29d7e607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventSystem: {fileID: 1147106340}
+  selectedObject: {fileID: 1773321807}
 --- !u!1 &873454384
 GameObject:
   m_ObjectHideFlags: 0
@@ -1447,6 +1475,7 @@ GameObject:
   - component: {fileID: 1322007996}
   - component: {fileID: 1322007995}
   - component: {fileID: 1322007994}
+  - component: {fileID: 1322007997}
   m_Layer: 5
   m_Name: AudioPanel
   m_TagString: Untagged
@@ -1535,6 +1564,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1322007992}
+--- !u!114 &1322007997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1322007992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f4924d19e55e341aca2e6c29d7e607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventSystem: {fileID: 1147106340}
+  selectedObject: {fileID: 1821999864}
 --- !u!1 &1330503906
 GameObject:
   m_ObjectHideFlags: 0
@@ -2422,6 +2464,10 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1806841754}
+--- !u!1 &1821999864 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100008, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d, type: 2}
+  m_PrefabInternal: {fileID: 776119777}
 --- !u!224 &1821999865 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22400008, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d,
